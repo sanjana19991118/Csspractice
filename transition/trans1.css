@@ -1,0 +1,19 @@
+div{
+   background-color:blue;
+   width:100px;
+   height:50px;
+   transition: width 5s;
+
+}
+
+div:hover{
+   width:200px;
+
+}
+
+#trans1{transition-timing-function:linear;}
+#trans2{transition-timing-function:ease;}
+#trans3{ transition-timing-function:ease-in;}
+#trans4{transition-timing-function:ease-in-out;}
+#trans5{ transition-timing-function:ease-out;}
+ 
