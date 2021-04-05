@@ -1,0 +1,154 @@
+.logo {
+    padding-top: 10px;
+    transition-property: all;
+    padding-bottom: 10px;
+}
+
+.banner{
+    width:100%;
+    height:auto;
+    float:left;
+    
+    padding-bottom:15px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.single-place{
+    margin-bottom: 15px;
+}
+
+
+.package-thumb {
+    width:100%;
+    height:auto;
+    float: left;
+    position: relative;
+}
+
+.package-thumb  img {
+    width: 100%;
+    height: auto;
+    padding:10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.time {
+    border-radius: 50%;
+    float:left;
+    background: rgba(0, 0, 0, 0.8);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: rgba(0,0,0,0.8);
+    float:left;   
+    font-size: 11px;
+    text-align: center;
+    top: 15px;
+    height:auto;
+    line-height: 15px;
+    padding: 17px 12px;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    right: 15px;
+    color:#fff;
+    font-weight:400;
+    
+   
+}
+.time1{
+    float:left;
+    background:rgba(0,0,0,0.8);
+    background-image:initial;
+    background-color:rgba(0, 0, 0, 0.8);
+    top: 15px;
+    right:15px;
+    border-radius:50%;
+    position:absolute;
+    color:#fff;
+    height:auto;
+    font-weight:400;
+    font-size:11px;
+    width: auto;
+    line-height: 15px;
+    padding:17px 12px;
+
+}
+   
+.product-number{
+    background: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0,0,0,0.8);
+    background-position-x:initial;
+    background-position-y:initial;
+    background-size:initial;
+    background-attachment: initial;
+    background-clip:initial;
+    position:absolute;
+    text-align: center;
+    height:auto;
+    width:auto;
+    float:left;
+    font-size:12px;
+    bottom: 20px;
+    left:15px;
+    font-weight:400;
+    line-height:5px;
+    padding: 15px 10px;
+    color:#fff;
+    border-radius:50%;
+   
+}
+
+
+.volvo{
+    width:50%;
+    margin-bottom: 20px;
+    
+    position:relative;
+    float:left;
+    
+
+
+}
+
+.volvo img{
+  width:100%;
+  height:auto;
+  padding:10px;
+  transition: all 0.5s ease-in-out ;
+
+}
+
+
+
+.product-number1{
+  float:left;
+  bottom:20px;
+  background: rgba(0,0,0,0.8);
+  border-radius:50%;
+  height:auto;
+  color:#fff;
+  position:absolute;
+  font-size:12px;
+  text-align: center;
+  line-height:5px;
+  background-clip:initial;
+  background-position-x:initial;
+  background-position-y: initial;
+  background-size:initial;
+  left:10px;
+  padding:15px 10px;
+  
+}
+
+.contact img{
+    background-attachment: scroll;
+}
