@@ -1,0 +1,15 @@
+.flex-containerr{
+    display:flex;
+    background-color:rgb(240, 37, 37);
+
+}
+
+.flex-container > div{
+ width:100px;
+ height:200px;
+ background-color:blue;
+ border:10px;
+ margin:20px;
+ padding:15px;
+ text-align: center;
+}
