@@ -1,0 +1,19 @@
+a:hover{
+    
+    color: brown;
+}
+
+/* simple tool selector*/
+p{
+    padding:20px;
+    background-color: yellow;
+}
+
+div:hover p {
+   display:block;
+}
+
+a.both:hover{
+    color: blue;
+}
+
