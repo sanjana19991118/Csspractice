@@ -1,0 +1,20 @@
+.center{
+    background-color: aqua;
+    text-align: center;
+
+ }
+
+ p.center1{
+     background-color:chocolate;
+     text-align: center;
+ }
+
+ div.center {
+   text-align: center;
+ }
+
+ div.high{
+     width: 150px;
+     height: 100px;
+     background-color: coral;
+ }

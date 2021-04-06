@@ -1,0 +1,31 @@
+/*------- tag selectors------*/
+img{
+    background-color: red;
+}
+
+/*h1{
+    color:darkcyan;
+}*/
+
+/*----------class selectors--------*/
+.broccoli:hover {
+ background-color:darkgoldenrod;
+}
+
+.bacon {
+    background-color:darkorange;
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+/*--------id selectors-----------*/
+#heading{
+    color: darkolivegreen;
+}
+
+
+/*#big{
+    font:100px;
+}*/
