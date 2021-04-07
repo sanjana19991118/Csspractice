@@ -1,0 +1,16 @@
+li a {
+    display:block;
+    color:blue;
+    width:60px;
+}
+
+a:visited{
+    color: red;
+}
+
+ul{
+    list-style-type:none;
+   
+
+
+}

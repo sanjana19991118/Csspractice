@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ACTIVE NAV BAR</title>
+    <style>
+    ul{
+        list-style-type:none;
+        background-color: #674;
+        width:200px;
+        padding: 10px;
+        margin:0px;
+
+    }
+
+    li a{
+        display:block;
+        color:black;
+        padding: 15px 10px;
+        text-decoration: none;
+    }
+
+    a.active{
+        background-color: orangered;
+        padding: 15px 10px;
+    }
+
+    li a:hover{
+        background-color:orange;
+        color:red;
+    }
+
+    li a:hover:not(.active){
+        background-color: orange;
+        color:red;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a  class="active" href="#home">HOME</a></li>
+        <li><a href="#Details">DETAILS</a></li>
+        <li><a href="#Addmissions">ADDMISSIONS</a></li>
+        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        
+    </ul>
+</body>
+</html>

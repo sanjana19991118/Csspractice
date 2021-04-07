@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    background-color: #555;
+    padding:0;
+    width:25%;
+    height: 100%;
+    margin:0;
+    overflow:auto;
+    position:fixed;
+
+}
+
+
+li a {
+    display:block;
+    color: black;
+    padding: 15px 10px;
+    text-decoration:none;
+}
+
+li a.active{
+    background-color: beige;
+    
+    color:black;
+}
+
+li a:hover:not(.active){
+    background-color: gray;
+    color:#555;
+
+}
+
+
+
+
+body{
+    margin:0;
+}
