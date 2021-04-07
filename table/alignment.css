@@ -1,0 +1,26 @@
+table{
+    text-align: center;
+    width: 50%;
+}
+
+table,th,td{
+    border:1px solid;
+}
+
+.left{
+    border: 1px solid;
+    text-align: left;
+    width: 50%;
+
+}
+
+
+.col{
+    border-collapse: collapse;
+}
+.veralign{
+    height:50px;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: bottom;
+}

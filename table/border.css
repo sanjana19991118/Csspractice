@@ -1,0 +1,17 @@
+
+table,th,td{
+    border:1px solid;
+}
+
+
+.full{
+    width:100%;
+    border: 1px solid black;
+}
+
+.collapse{
+    border-collapse:collapse;
+}
+
+
+
