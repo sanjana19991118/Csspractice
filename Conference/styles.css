@@ -1,0 +1,21 @@
+table,th,td{
+    border:1px solid;
+
+}
+
+table{
+    width:100%;
+
+    border-spacing: 100px;
+    
+}
+
+.col{
+    border-collapse: collapse;
+}
+
+h2,h3{
+    
+    text-align: center;
+}
+
