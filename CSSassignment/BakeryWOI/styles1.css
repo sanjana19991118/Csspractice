@@ -70,3 +70,17 @@ nav ul li  ul li a {
   color:black;
   
 }
+
+
+header  li  a{ 
+  text-decoration: none;
+}
+
+header li{
+  height: 50px;
+  width: 250px;
+  font-size: 30px;
+  background-color:rgb(115, 192, 15);
+  color:black;
+  list-style-type:none;
+}
