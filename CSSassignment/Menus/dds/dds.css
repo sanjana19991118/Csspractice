@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background-image: url(maruti-suzuki-celerio.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    color: beige;
+    padding:20px;
+    border-bottom:5px solid;
+
+}
+
+.nav{
+    list-style-type: none;
+    display: -webkit-inline-flex;
+}
+
+.nav li {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.8);
+    width:270px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left:2px solid white;
+
+
+}
+
+.nav li:hover{
+    background-color:gray;
+}
+
+.nav li a:hover{
+    color: black;
+}
+
+.nav li a{
+    color:beige;
+    font-size: 18px;
+    font-family: serif;
+    text-decoration: none;
+}
+
+.sub-menu1{
+    display: none;
+    position:absolute;
+    list-style-type:none;
+}
+
+.sub-menu2{
+    display: none;
+    position:absolute;
+    list-style-type:none;
+}
+
+
+.nav li:hover .sub-menu1{
+    display:block;   
+}
+
+.nav li:hover .sub-menu2{
+    display:block;
+}
+
+.sub-menu2-one{
+    display: none;
+    list-style-type: none;
+    margin-left: 270px;
+    margin-top:-38px;
+
+
+}
+
+
+
+.sub-menu2 li:hover .sub-menu2-one{
+    display: block; 
+}
+
+.sub-menu2-one li a :hover{
+   color: black;
+}
+
+.sub-menu1 li a:hover{
+    color:black;
+}
+
+.sub-menu2 li a:hover{
+    color:black;
+}
+
+.sub-menu2 li .sub-menu2-one li a:hover{
+    color:black;
+}
+
+
+/*
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+
+}
+
+h1{
+    color:white;
+    padding:20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: 5px solid ;
+}
+
+.nav{
+    list-style-type: none;
+    display: -webkit-inline-flex;
+
+}
+
+.nav li{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    width: 228px;
+    border-bottom: 2px solid white;
+}
+
+
+.nav li a {
+    color: white;
+    font-size: 18px;
+    font-family: serif;
+    text-decoration: none;
+   
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+}
+
+.nav li:hover .sub-menu{
+     display: block;
+}
+
+
+.sub-menu-one{
+    display: none;
+    list-style-type: none;
+    margin-left: 226px;
+    margin-top: -51px;
+}
+
+.sub-menu li:hover .sub-menu-one{
+    display: block; 
+}
+
+*/
+
+
+
